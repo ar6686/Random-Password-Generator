@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 15vh;
+    margin-left: 5vw;
 }
 
 #h1 {
@@ -79,4 +79,10 @@ body {
     margin-top: 5px;
     margin-left: -5px;
     cursor: pointer;
+}
+@media(-width = 500px){
+    body{
+        margin-left: -9px;
+        margin-right: min(5px);
+    }
 }
